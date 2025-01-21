@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/Main.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="module" src="Script/script.js"></script>
+    <title>Death Screen</title>
+</head>
+<body>
+    <div class="main hidden" id="main">
+        <img class="background" src="assets/background.png" alt="Background">
+        <img class="skull" src="assets/skull.png" alt="skull">
+        <img class="redlines" src="assets/redlines.png" alt="redlines">
+        <div class="information-border">
+            <div class="main-title" id="main-title">YOU ARE DEAD</div>
+            <div class="main-disc" id="main-disc">YOUR TIME PASS AWAY</div>
+
+            <div class="timer-border"><span class="timer-text" id="time">00:00</span></div>
+            
+            <div class="buttons-border">
+                <div class="respawn-border hidden"><div class="button-letter-border"><span class="button-letter" id="button-letter-respawn">E</span></div><span class="button-text" id="button-text-respawn">RESPAWN</span></div>
+                <div class="dispatch-border"><div class="button-letter-border"><span class="button-letter" id="button-letter-dispatch">G</span></div><span class="button-text" id="button-text-dispatch">DISPATCH</span></div>
+                <div class="sync-border"><div class="button-letter-border"><span class="button-letter" id="button-letter-sync">U</span></div><span class="button-text" id="button-text-sync">SYNC</span></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
